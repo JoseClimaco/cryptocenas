@@ -14,7 +14,7 @@ var portfolio =
       0: {OrderUuid:"353bbe54-f5f9-49c2-93dd-01aebfdfa18c",Exchange:"BTC-LTC",Type:"LIMIT_BUY",Quantity:1.00000000,Limit:0.01334989,CommissionPaid:0.00003337,Price:0.01334988,Opened:"9/27/20171:13:17PM",Closed:"9/27/20171:13:29PM"},
     }
   },
-  neo: {
+  /*neo: {
     SYMBOL: "NEO",
     AVAILABLE: 1.00234257,
     TRANSACTIONS:
@@ -34,15 +34,15 @@ var portfolio =
       2: {OrderUuid:"28393d52-b60a-4ee7-932b-9a48d3d6e2b6",Exchange:"BTC-NEO",Type:"LIMIT_BUY",Quantity:"0.55000000",Limit:0.00658052,CommissionPaid:"0.00000904",Price:"0.00361928",Opened:"9/26/20179:12:47AM",Closed:"9/26/20179:12:47AM"}
       
     }
-  },
+  },*/
   komodo: {
     SYMBOL: "KMD",
-    AVAILABLE: 6.00000000,
+    AVAILABLE: 7.20371247,
     TRANSACTIONS:
     {
       0: {OrderUuid:"4fc440ea-a3d7-4b4e-85d1-dd186984708a",Exchange:"BTC-KMD",Type:"LIMIT_BUY",Quantity:"5.00000000",Limit:0.00049659,CommissionPaid:"0.00000620",Price:"0.00248295",Opened:"9/12/201711:01:24AM",Closed:"9/12/201711:01:24AM"},
       1: {OrderUuid:"e84b6540-0f42-4d39-9938-6d604155a65c",Exchange:"BTC-KMD",Type:"LIMIT_BUY",Quantity:"1.00000000",Limit:0.00072318,CommissionPaid:"0.00000179",Price:"0.00071900",Opened:"9/6/201712:33:49PM",Closed:"9/6/201712:33:49PM"},
-      
+      2: {OrderUuid:"ae26a77c-a43b-4bfb-a982-aba92c356a15",Exchange:"BTC-KMD",Type:"LIMIT_BUY",Quantity:"1.20371247",Limit:0.00042263,CommissionPaid:"0.00000127",Price:"0.00050872",Opened:"10/7/2017 1:32:39 PM",Closed:"10/7/2017 1:32:39 PM"}
     }
   },
   monero: {
@@ -96,10 +96,12 @@ var portfolio =
   cardano:
   {
     SYMBOL: "ADA",
-    AVAILABLE: 200.00000000,
+    AVAILABLE: 302.83505155,
     TRANSACTIONS:
     {
       0: {OrderUuid:"c78e8e66-f109-426c-9210-e011e98361d7",Exchange:"BTC-ADA",Type:"LIMIT_BUY",Quantity:"200.00000000",Limit:0.00000512,CommissionPaid:"0.00000255",Price:"0.00102000",Opened:"10/2/201711:37:38AM",Closed:"10/2/201711:37:38AM"},      
+      1: {OrderUuid:"986c8df9-e232-46d2-827e-a2af15c66f03",Exchange:"BTC-ADA",Type:"LIMIT_BUY",Quantity:"102.83505155",Limit:0.00000485,CommissionPaid:"0.00000124",Price:"0.00049669",Opened:"10/7/2017 1:30:27 PM",Closed:"10/7/2017 1:30:27 PM"},
+      
     }
   },  
   ripple:
@@ -141,7 +143,7 @@ var portfolio =
   bitcoin:
   {
     SYMBOL: "BTC",
-    AVAILABLE: 0.00000001,
+    AVAILABLE: 0.00125062,
     TRANSACTIONS:
     {
       
@@ -176,8 +178,66 @@ var portfolio =
     {
       
     }
-  }
+  },
+  omisego:
+  {
+    SYMBOL: "OMG",
+    AVAILABLE: 0.26648769,
+    TRANSACTIONS:
+    {
+      0: {OrderUuid:"aa10eb5e-b8b3-4503-b9a3-4db047352ec8",Exchange:"BTC-OMG",Type:"LIMIT_BUY",Quantity:"0.26648769",Limit:"0.00190900",CommissionPaid:"0.00000126",Price:"0.00050792",Opened:"10/7/2017 1:31:24 PM",Closed:"10/7/2017 1:31:25 PM"}      
+    }
+  },
+  metal:
+  {
+    SYMBOL: "MTL",
+    AVAILABLE: 0.27862973,
+    TRANSACTIONS:
+    {
+      0: {OrderUuid:"0d8edeeb-8d4f-4e06-a065-c3ce2ce60cbc",Exchange:"BTC-MTL",Type:"LIMIT_BUY",Quantity:"0.27862973",Limit:"0.00179001",CommissionPaid:"0.00000124",Price:"0.00049872",Opened:"10/7/2017 1:32:10 PM",Closed:"10/7/2017 1:32:10 PM"}      
+    }
+  },
+  zcash:
+  {
+    SYMBOL: "ZEC",
+    AVAILABLE: 0.00869379,
+    TRANSACTIONS:
+    {
+      0: {OrderUuid:"c5fb4aff-3246-4b91-8da9-d69c1f814f40",Exchange:"BTC-ZEC",Type:"LIMIT_BUY",Quantity:"0.00869379",Limit:"0.05736856",CommissionPaid:"0.00000124",Price:"0.00049874",Opened:"10/7/2017 1:32:53 PM",Closed:"10/7/2017 1:32:53 PM"}      
+    }
+  },
+  "circuits-of-value":
+  {
+    SYMBOL: "COVAL",
+    AVAILABLE: 498.75000000,
+    TRANSACTIONS:
+    {
+      0: {OrderUuid:"73be419a-3f40-470e-9ecc-ca874bfc50f0",Exchange:"BTC-COVAL",Type:"LIMIT_BUY",Quantity:"498.75000000",Limit:"0.00000100",CommissionPaid:"0.00000124",Price:"0.00049875",Opened:"10/7/2017 1:27:05 PM",Closed:"10/7/2017 1:33:26 PM"}      
+    }
+  },
+  reddcoin:
+  {
+    SYMBOL: "RDD",
+    AVAILABLE: 2267.04545455,
+    TRANSACTIONS:
+    {
+      0: {OrderUuid:"d45efb3f-dbd5-416d-af62-c6f87f0e6c72",Exchange:"BTC-RDD",Type:"LIMIT_BUY",Quantity:"2267.04545455",Limit:"0.00000022",CommissionPaid:"0.00000124",Price:"0.00049875",Opened:"10/7/2017 1:26:12 PM",Closed:"10/8/2017 6:39:33 PM"},      
+    }
+  },
+  stellar:
+  {
+    SYMBOL: "XLM",
+    AVAILABLE: 100.35211268,
+    TRANSACTIONS:
+    {
+      0: {OrderUuid:"719155e1-6062-45d9-9b21-421de37edbb4",Exchange:"BTC-XLM",Type:"LIMIT_BUY",Quantity:"100.35211268",Limit:"0.00000497",CommissionPaid:"0.00000124",Price:"0.00049875",Opened:"10/7/2017 1:22:50 PM",Closed:"10/7/2017 1:33:26 PM"},
+      
+    }
+  },
 }
+
+
+
 
 var cointotal = 0;
 $.each(portfolio, function (key, val) {
