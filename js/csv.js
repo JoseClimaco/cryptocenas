@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     // AJAX in the data file
     $.ajax({
