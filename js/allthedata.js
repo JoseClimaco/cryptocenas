@@ -51,3 +51,30 @@ var allthedata = [
     {"local":"jaxx","id":"0xfb6d1e111240d07a9ab27187a69b79e4277aef6640f803bd6bbfa5a4ac57c23f","out":"ETH","in":"ATL","type":"LIMIT_BUY","quantity":"14.0895","limit":"","fee":"0.001259538","price":"0.0279","opened":"9/8/2017 10:03:23","closed":"9/8/2017 10:03:23"},
     {"local":"jaxx","id":"0xa0a9e506f596ec004673b944ae7482f05d46f92eb573125a13b33c7f2c8a40ad","out":"ETH","in":"ETH","type":"TRANSFER","quantity":"0.03","limit":"","fee":"0.001016730662","price":"","opened":"9/8/2017 09:53:15","closed":"9/8/2017 09:53:15"},     {"local":""}
 ]
+
+
+
+
+/*$.each(allthedata[0], function (key, val) {
+    $.get( "https://api.coinmarketcap.com/v1/ticker/" + key + "/?convert=EUR", function( data ) {
+      if (val.TRANSACTIONS) {
+        var mediaRate = 0;
+        var totalTransactions = Object.keys(val.TRANSACTIONS).length;
+        var totalRate = 0;
+        $.each(val.TRANSACTIONS, function (idx, transaction) {
+          mediaRate = mediaRate + transaction.Limit;
+        });
+        totalRate = mediaRate / totalTransactions;
+      }
+      var val_eur = val.AVAILABLE * data[0].price_eur;
+      cointotal = cointotal + val_eur;
+      $(".total").html(cointotal);
+      if (totalRate < data[0].price_btc) {
+        var color = "green";
+      } else {
+        var color = "red";
+      }
+      var insert = "<tr class='"+color+"'><td><img src='https://files.coinmarketcap.com/static/img/coins/16x16/"+ data[0].id +".png'></td><td>" + data[0].name + "</td><td>"+ val.SYMBOL+ "</td><td>"+ val.AVAILABLE +"</td><td>"+ totalRate +"</td><td>"+ data[0].price_btc +"</td><td>"+ totalRate * 3800 +"</td><td>€"+ data[0].price_eur +"</td><td>€" + val_eur + "</td></tr>"
+      $(insert).appendTo( "body > div.table-responsive > table > tbody" );
+  });
+});*/
