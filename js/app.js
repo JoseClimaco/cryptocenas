@@ -41,16 +41,16 @@ var allthedata = [
   {local:"bittrex",id:"1c337d61-25a8-4ef1-8ae6-3b718ae851fa",out:"BTC",in:"VTC",type:"LIMIT_BUY",quantity:4,limit:0.00020239,fee:"0.00000202",price:"0.00080956",opened:"9/6/2017 10:51:04",closed:"9/7/2017 06:28:08"},
   {local:"bittrex",id:"e84b6540-0f42-4d39-9938-6d604155a65c",out:"BTC",in:"KMD",type:"LIMIT_BUY",quantity:1,limit:0.00072318,fee:"0.00000179",price:"0.000719",opened:"9/6/2017 12:33:49",closed:"9/6/2017 12:33:49"},
   {local:"bittrex",id:"08764fca-f83a-4052-84b3-9a442caac73f",out:"BTC",in:"NEO",type:"LIMIT_BUY",quantity:0.24409622,limit:0.00613,fee:"0.00000374",price:"0.0014963",opened:"9/8/2017 14:47:21",closed:"9/8/2017 14:50:23"},
-  {local:"coinbase",id:"59ad59ba133ed70272c2a651",out:"EUR",in:"BTC",type:"LIMIT_BUY",quantity:0.00236322,limit:9.01,fee:"0.99",price:"10",opened:"2017-09-04 06:48:42 -0700",closed:"2017-09-04 06:48:42 -0700"},
-  {local:"coinbase",id:"59afd7324d3af2038e1a5191",out:"EUR",in:"BTC",type:"LIMIT_BUY",quantity:0.00711162,limit:28.01,fee:"1.99",price:"30",opened:"2017-09-06 04:08:35 -0700",closed:"2017-09-06 04:08:35 -0700"},
-  {local:"coinbase",id:"59bb944be67669031b60061c",out:"EUR",in:"BTC",type:"LIMIT_BUY",quantity:0.03590304,limit:96.16,fee:"3.84",price:"100",opened:"2017-09-15 01:50:19 -0700",closed:"2017-09-15 01:50:19 -0700"},
+  //{local:"coinbase",id:"59ad59ba133ed70272c2a651",out:"EUR",in:"BTC",type:"LIMIT_BUY",quantity:0.00236322,limit:9.01,fee:"0.99",price:"10",opened:"2017-09-04 06:48:42 -0700",closed:"2017-09-04 06:48:42 -0700"},
+  //{local:"coinbase",id:"59afd7324d3af2038e1a5191",out:"EUR",in:"BTC",type:"LIMIT_BUY",quantity:0.00711162,limit:28.01,fee:"1.99",price:"30",opened:"2017-09-06 04:08:35 -0700",closed:"2017-09-06 04:08:35 -0700"},
+  //{local:"coinbase",id:"59bb944be67669031b60061c",out:"EUR",in:"BTC",type:"LIMIT_BUY",quantity:0.03590304,limit:96.16,fee:"3.84",price:"100",opened:"2017-09-15 01:50:19 -0700",closed:"2017-09-15 01:50:19 -0700"},
   {local:"coinbase",id:"59ad59fa133ed700bfc2cf16",out:"EUR",in:"ETH",type:"LIMIT_BUY",quantity:0.03431908,limit:9.01,fee:"0.99",price:"10",opened:"2017-09-04 06:49:46 -0700",closed:"2017-09-04 06:49:46 -0700"},
   {local:"coinbase",id:"59b799b8f8050000accd2d4e",out:"EUR",in:"ETH",type:"LIMIT_BUY",quantity:0.18324183,limit:48.01,fee:"1.99",price:"50",opened:"2017-09-12 01:24:24 -0700",closed:"2017-09-12 01:24:24 -0700"},
-  {local:"gdax",id:"349959",out:"EUR",in:"LTC",type:"LIMIT_SELL",quantity:2.30868344,limit:44.15,fee:"0",price:"101.9283739",opened:"2017-10-09T15:22:13.505Z",closed:"2017-10-09T15:22:13.505Z"},
+  {local:"gdax",id:"349959",out:"EUR",in:"LTC",type:"LIMIT_BUY",quantity:2.30868344,limit:44.15,fee:"0",price:"101.9283739",opened:"2017-10-09T15:22:13.505Z",closed:"2017-10-09T15:22:13.505Z"},
   {local:"jaxx",id:"0xf284b03c9a5912c8fbfe26cc5b821baae08fb76e7e79be16f50c495ddd7d5a94",out:"ETH",in:"EOS",type:"LIMIT_BUY",quantity:0,limit:0,fee:"0.00051416",price:"0.101402559",opened:"9/29/2017 1:16:59 PM",closed:"9/29/2017 1:16:59 PM"},
   {local:"jaxx",id:"0x34d14334cde292df428550cc1bfbfb962b518c58ff4188a30225ce534821839e",out:"ETH",in:"ETH",type:"TRANSFER",quantity:0.1001245,limit:0,fee:"0.001071",price:"",opened:"9/29/2017 1:05:04 PM",closed:"9/29/2017 1:05:04 PM"},
   {local:"jaxx",id:"0xa58efde710dfd0d4fe37d7fe3affa2ad8f70685a98474fafcaa4d55ca7a13027",out:"ETH",in:"ETH",type:"TRANSFER",quantity:0.122475,limit:0,fee:"0.000442071",price:"",opened:"9/12/2017 09:58:38",closed:"9/12/2017 09:58:38"},
-  {local:"jaxx",id:"0xebccceba79415e77cd1e0280c36f15ff40ca82ca4d127b88d68f6a4b6b8991b1",out:"ETH",in:"REAL",type:"LIMIT_BUY",quantity:15.84,limit:0,fee:"0.003406242",price:"0.06",opened:"9/12/2017 08:36:59",closed:"9/12/2017 08:36:59"},
+  {local:"jaxx",id:"0xebccceba79415e77cd1e0280c36f15ff40ca82ca4d127b88d68f6a4b6b8991b1",out:"ETH",in:"REAL",type:"LIMIT_BUY",quantity:15.84,limit:0.003787878787879,fee:"0.003406242",price:"0.06",opened:"9/12/2017 08:36:59",closed:"9/12/2017 08:36:59"},
   {local:"jaxx",id:"0x1a525f1ed1d6db4c878502da20b4d1c5b0981ee3244f250dbb309d0320592d27",out:"ETH",in:"ETH",type:"TRANSFER",quantity:0.18756091,limit:0,fee:"0.0004815335021",price:"",opened:"9/12/2017 08:29:39",closed:"9/12/2017 08:29:39"},
   {local:"jaxx",id:"0xfb6d1e111240d07a9ab27187a69b79e4277aef6640f803bd6bbfa5a4ac57c23f",out:"ETH",in:"ATL",type:"LIMIT_BUY",quantity:14.0895,limit:0,fee:"0.001259538",price:"0.0279",opened:"9/8/2017 10:03:23",closed:"9/8/2017 10:03:23"},
   {local:"jaxx",id:"0xa0a9e506f596ec004673b944ae7482f05d46f92eb573125a13b33c7f2c8a40ad",out:"ETH",in:"ETH",type:"TRANSFER",quantity:0.03,limit:0,fee:"0.001016730662",price:"",opened:"9/8/2017 09:53:15",closed:"9/8/2017 09:53:15"},     {local:""}
@@ -163,12 +163,16 @@ $.each(portfolio, function (key, val) {
 
       var coinMediaRate = 0;
       var coinTotalQuantity = 0;
+      var coinTotalBuy = 0;
       var coinTotalValue = 0;
       var coinTotalTransactions = 0;
+      var totalTransactions = 0;
+      var color = "white";
       
       $.each(allthedata, function (idx, transaction) {
         if(val.SYMBOL === transaction.in && transaction.type != "TRANSFER" && transaction.type != "LIMIT_SELL") {
-          coinMediaRate = coinMediaRate + transaction.limit;
+          
+          coinMediaRate = coinMediaRate + (transaction.limit);
           coinTotalQuantity = coinTotalQuantity + transaction.quantity;
 
           /*
@@ -178,39 +182,41 @@ $.each(portfolio, function (key, val) {
           */
           
           totalTransactions++;
+        } else if (val.SYMBOL === transaction.in && transaction.type === "LIMIT_SELL") {
+          coinTotalQuantity = coinTotalQuantity - transaction.quantity;
         }
       });
       coinMediaRate = coinMediaRate / totalTransactions;
 
 
-      var val_eur = totalofcoin * data[0].price_eur;
+      var val_eur = coinTotalQuantity * data[0].price_eur;
       cointotal = cointotal + val_eur;
       $(".total").html(cointotal);
-      if (totalRate < data[0].price_btc) {
+      if (coinMediaRate < data[0].price_btc) {
         var color = "green";
       } else {
         var color = "red";
       }
-      var insert = "<tr class='"+color+"'><td><img src='https://files.coinmarketcap.com/static/img/coins/16x16/"+ data[0].id +".png'></td><td>" + data[0].name + "</td><td>"+ val.SYMBOL+ "</td><td>"+ quantityofcoin +"</td><td>"+ totalRate +"</td><td>"+ data[0].price_btc +"</td><td>"+ totalRate * 3800 +"</td><td>€"+ data[0].price_eur +"</td><td>€" + val_eur + "</td></tr>"
+      var insert = "<tr class='"+color+"'><td><img src='https://files.coinmarketcap.com/static/img/coins/16x16/"+ data[0].id +
+                  ".png'></td><td>" + data[0].name + // name
+                  "</td><td>"+ val.SYMBOL+  //symbol
+                  "</td><td>"+ coinTotalQuantity + //quantity
+                  "</td><td>"+ coinMediaRate + // bought at btc
+                  "</td><td>"+ data[0].price_btc + // value at btc
+                  "</td><td>€"+ coinMediaRate * 3800 + // bought at euro
+                  "</td><td>€"+ data[0].price_eur + // value at euro
+                  "</td><td>%"+ calculatePercentage(coinMediaRate, data[0].price_btc) + // value at euro   % Decrease = Decrease ÷ Original Number × 100
+                  "</td><td>€" + coinTotalQuantity * data[0].price_eur + // est value
+                  "</td></tr>"
       $(insert).appendTo( "body > div.table-responsive > table > tbody" );
   });
 });
 console.log(cointotal);
 
 
-/*{
-  id: "bitcoin", 
-  "name": "Bitcoin", 
-  "symbol": "BTC", 
-  "rank": "1", 
-  "price_usd": "573.137", 
-  "price_btc": "1.0", 
-  "24h_volume_usd": "72855700.0", 
-  "market_cap_usd": "9080883500.0", 
-  "available_supply": "15844176.0", 
-  "total_supply": "15844176.0", 
-  "percent_change_1h": "0.04", 
-  "percent_change_24h": "-0.3", 
-  "percent_change_7d": "-0.57", 
-  "last_updated": "1472762067"
-}*/
+
+function calculatePercentage(oldFigure, newFigure)
+{
+    var percentChange = ((oldFigure - newFigure) / oldFigure) * 100;
+    return Math.round(Math.abs(percentChange));
+}
